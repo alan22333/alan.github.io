@@ -1,7 +1,7 @@
 baseURL: https://alan22333.github.io/alan.github.io/
 
 languageCode: bn
-title: "John's Blog"
+title: "Alan's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Alan's Blog"
     weight: 1
   bn:
     languageCode: bn
