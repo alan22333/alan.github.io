@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of Alan223.
+description: 个人网站
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -24,6 +24,6 @@ customMenus:
 openGraph:
   title: Alan's Blog
   type: website
-  description: Portfolio and personal blog of Alan Doe.
+  description: 个人网站
   image: images/avt.png
   url: https://alan22333.github.io
