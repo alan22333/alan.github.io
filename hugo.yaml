@@ -1,6 +1,6 @@
 baseURL: https://dev.alan223.online/
 
-languageCode: bn
+languageCode: en
 title: "Alan's Blog"
 
 # Use Hugo modules to add theme
@@ -30,11 +30,7 @@ languages:
     languageName: 中文
     title: "alan的个人网站"
     weight: 2
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 
+
 # default language for the content
 defaultContentLanguage: en
 
