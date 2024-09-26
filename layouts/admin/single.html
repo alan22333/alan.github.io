@@ -1,4 +1,33 @@
-{{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  <div>{{ .Content }}</div>
-{{ end }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <!-- 你可以引入独立的 CSS 文件，如果需要定制样式 -->
+  <link rel="stylesheet" href="/styles/admin.css">
+  <!-- 引入 Netlify Identity Widget -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <div id="cms">
+    <!-- Netlify CMS 会在这个 div 里加载 -->
+  </div>
+  
+  <!-- Netlify CMS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/netlify-cms@2.10.96/dist/netlify-cms.min.js"></script>
+  
+  <!-- Netlify CMS 的配置项（可选） -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
