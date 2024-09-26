@@ -20,9 +20,9 @@ media_folder_relative: true
 
 
 collections:
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
-    folder: "content/post" # The path to the folder where the documents are stored
+    folder: "content/posts" # The path to the folder where the documents are stored
     path: '{{slug}}/index' # beta feature
     media_folder: ''
     public_folder: ''
