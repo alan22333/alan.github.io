@@ -3,41 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Page</title>
-  <!-- 添加内联样式用于测试 -->
+  <title>{{ .Title }}</title>
   <style>
     body {
-      background-color: blue; /* 设置页面背景为蓝色 */
-      color: white;           /* 设置字体颜色为白色 */
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    h1 {
-      margin-top: 50px;
-      font-size: 3em;
+      background-color: blue;
+      color: white;
     }
   </style>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <h1>Welcome to Admin Page</h1> <!-- 添加一个标题用于确认 -->
-  
-  <div id="cms">
-    <!-- Netlify CMS 会在这个 div 中加载 -->
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/netlify-cms@2.10.96/dist/netlify-cms.min.js"></script>
-  
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
-        if (!user) {
-          window.netlifyIdentity.on('login', () => {
-            document.location.href = '/admin/';
-          });
-        }
-      });
-    }
-  </script>
+  <h1>{{ .Title }}</h1>
+  <p>This is the admin page.</p>
+  {{ .Content }} <!-- 渲染 admin/index.html 中的内容 -->
 </body>
 </html>
