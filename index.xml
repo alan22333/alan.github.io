@@ -8,7 +8,6 @@
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" />
 &lt;title>Blog Manager&lt;/title>
 &lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js">&lt;/script>
-&lt;link rel="stylesheet" href="https://dev.alan223.online/styles/admin.css" /> &lt;!-- 引入独立的CSS文件 -->
 &lt;/head>
 &lt;body>
 &lt;!-- Include the script that builds the page and powers Netlify CMS -->
