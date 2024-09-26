@@ -1,0 +1,9 @@
+/* admin.css */
+.admin-container {
+    /* 你的样式 */
+}
+
+/* 覆盖主题样式 */
+.admin-container .some-class {
+    /* 你的覆盖样式 */
+}
