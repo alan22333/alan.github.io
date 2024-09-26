@@ -4,16 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }}</title>
-  <style>
-    body {
-      background-color: blue;
-      color: white;
-    }
-  </style>
 </head>
 <body>
-  <h1>{{ .Title }}</h1>
-  <p>This is the admin page.</p>
   {{ .Content }} <!-- 渲染 admin/index.html 中的内容 -->
 </body>
 </html>
