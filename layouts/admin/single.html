@@ -4,18 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Page</title>
-  <!-- 引入 Netlify Identity Widget -->
+  <!-- 添加内联样式用于测试 -->
+  <style>
+    body {
+      background-color: blue; /* 设置页面背景为蓝色 */
+      color: white;           /* 设置字体颜色为白色 */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+    }
+  </style>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+  <h1>Welcome to Admin Page</h1> <!-- 添加一个标题用于确认 -->
+  
   <div id="cms">
-    <!-- Netlify CMS 会在这个 div 里加载 -->
+    <!-- Netlify CMS 会在这个 div 中加载 -->
   </div>
   
-  <!-- Netlify CMS Script -->
   <script src="https://cdn.jsdelivr.net/npm/netlify-cms@2.10.96/dist/netlify-cms.min.js"></script>
   
-  <!-- Netlify CMS 的配置项（可选） -->
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', user => {
