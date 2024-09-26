@@ -3,7 +3,7 @@ title: 甚么是Solidity？
 comments: true
 draft: true
 date: 2024-09-26T14:48:57.915Z
-cover: solidity.jpg
+cover: ""
 tags:
   - 智能合约
 ---
