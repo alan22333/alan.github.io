@@ -5,7 +5,8 @@ menu:
   sidebar:
     name: New Blog
     identifier: test blog2
-    parent: frontend
+    parent: frontendgit
     weight: 2
 ---
 ### 测试测试
+  
