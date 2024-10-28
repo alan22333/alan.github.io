@@ -1,8 +1,8 @@
 ---
-title: Deploy Site
+title: Frontend
 menu:
   sidebar:
-    name: Deploy Site
+    name: frontend
     identifier: frontend
     weight: 300
 ---

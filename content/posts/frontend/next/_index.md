@@ -5,5 +5,5 @@ menu:
     name: next js
     identifier: next
     parent: frontend
-    weight: 300
+    weight: 100
 ---
