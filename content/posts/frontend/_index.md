@@ -3,6 +3,6 @@ title: Deploy Site
 menu:
   sidebar:
     name: Deploy Site
-    identifier: getting-started
+    identifier: frontend
     weight: 300
 ---
