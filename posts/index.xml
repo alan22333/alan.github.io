@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Alan's Blog</title><link>https://dev.alan223.online/posts/</link><description>Recent content in Posts on Alan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 08 Jun 2024 06:00:20 +0600</lastBuildDate><atom:link href="https://dev.alan223.online/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>App router</title><link>https://dev.alan223.online/posts/frontend/next/approuter/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/next/approuter/</guid><description>&lt;p>在使用 Next.js 13 引入的 &lt;code>app&lt;/code> 目录时，项目结构和文件组织方式与传统的 &lt;code>pages&lt;/code> 目录有所不同。这是因为 &lt;code>app&lt;/code> 目录采用了全新的布局和数据获取方法，以支持 React Server Components 和更灵活的路由配置。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Alan's Blog</title><link>https://dev.alan223.online/posts/</link><description>Recent content in Posts on Alan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 08 Jun 2024 06:00:20 +0600</lastBuildDate><atom:link href="https://dev.alan223.online/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>App router</title><link>https://dev.alan223.online/posts/backend/next/approuter/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/backend/next/approuter/</guid><description>&lt;p>在使用 Next.js 13 引入的 &lt;code>app&lt;/code> 目录时，项目结构和文件组织方式与传统的 &lt;code>pages&lt;/code> 目录有所不同。这是因为 &lt;code>app&lt;/code> 目录采用了全新的布局和数据获取方法，以支持 React Server Components 和更灵活的路由配置。&lt;/p>
 &lt;h3 id="app-目录的特点">&lt;code>app&lt;/code> 目录的特点&lt;/h3>
 &lt;ol>
 &lt;li>
@@ -43,7 +43,52 @@
 &lt;li>&lt;strong>数据获取&lt;/strong>：&lt;code>app&lt;/code> 目录中的页面组件可以使用异步组件和数据获取方法，例如 &lt;code>getStaticProps&lt;/code> 和 &lt;code>getServerSideProps&lt;/code>。&lt;/li>
 &lt;/ol>
 &lt;h3 id="过渡和兼容">过渡和兼容&lt;/h3>
-&lt;p>如果你从使用 &lt;code>pages&lt;/code> 目录的传统结构过渡到使用 &lt;code>app&lt;/code> 目录的新结构，需要注意以下几点：&lt;/p></description></item><item><title>useRouter</title><link>https://dev.alan223.online/posts/frontend/next/navigation/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/next/navigation/</guid><description>&lt;p>useRouter 钩子允许你以编程方式更改 客户端组件 内的路由。&lt;/p>
+&lt;p>如果你从使用 &lt;code>pages&lt;/code> 目录的传统结构过渡到使用 &lt;code>app&lt;/code> 目录的新结构，需要注意以下几点：&lt;/p></description></item><item><title>App router</title><link>https://dev.alan223.online/posts/frontend/next/approuter/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/next/approuter/</guid><description>&lt;p>在使用 Next.js 13 引入的 &lt;code>app&lt;/code> 目录时，项目结构和文件组织方式与传统的 &lt;code>pages&lt;/code> 目录有所不同。这是因为 &lt;code>app&lt;/code> 目录采用了全新的布局和数据获取方法，以支持 React Server Components 和更灵活的路由配置。&lt;/p>
+&lt;h3 id="app-目录的特点">&lt;code>app&lt;/code> 目录的特点&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>文件结构&lt;/strong>：&lt;code>app&lt;/code> 目录使用文件夹而不是文件来定义路由。每个路由都由一个文件夹表示，文件夹内可以包含 &lt;code>page.tsx&lt;/code>、&lt;code>layout.tsx&lt;/code>、&lt;code>loading.tsx&lt;/code> 等文件来定义页面、布局和加载状态等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>动态路由&lt;/strong>：&lt;code>app&lt;/code> 目录仍然支持动态路由，但语法略有不同。你需要使用 &lt;code>[param]&lt;/code> 语法创建动态路由文件夹。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>例如：&lt;/p>
+&lt;pre tabindex="0">&lt;code>src/
+└── app/
+└── post/
+└── [id]/
+└── page.tsx
+&lt;/code>&lt;/pre>&lt;p>对应的页面代码可能是：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-tsx" data-lang="tsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// src/app/post/[id]/page.tsx
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> { &lt;span style="color:#a6e22e">useRouter&lt;/span> } &lt;span style="color:#66d9ef">from&lt;/span> &lt;span style="color:#e6db74">&amp;#39;next/router&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">PostPage&lt;/span> &lt;span style="color:#f92672">=&lt;/span> () &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">router&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">useRouter&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> { &lt;span style="color:#a6e22e">id&lt;/span> } &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">router&lt;/span>.&lt;span style="color:#a6e22e">query&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">Post&lt;/span> &lt;span style="color:#a6e22e">ID&lt;/span>&lt;span style="color:#f92672">:&lt;/span> {&lt;span style="color:#a6e22e">id&lt;/span>}&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#a6e22e">PostPage&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>&lt;strong>布局文件&lt;/strong>：&lt;code>layout.tsx&lt;/code> 文件用于定义页面的公共布局，它可以包含在 &lt;code>app&lt;/code> 目录或子目录中。例如：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-tsx" data-lang="tsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// src/app/layout.tsx
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">RootLayout&lt;/span>({ &lt;span style="color:#a6e22e">children&lt;/span> }) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;{&lt;span style="color:#a6e22e">children&lt;/span>}&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>&lt;strong>数据获取&lt;/strong>：&lt;code>app&lt;/code> 目录中的页面组件可以使用异步组件和数据获取方法，例如 &lt;code>getStaticProps&lt;/code> 和 &lt;code>getServerSideProps&lt;/code>。&lt;/li>
+&lt;/ol>
+&lt;h3 id="过渡和兼容">过渡和兼容&lt;/h3>
+&lt;p>如果你从使用 &lt;code>pages&lt;/code> 目录的传统结构过渡到使用 &lt;code>app&lt;/code> 目录的新结构，需要注意以下几点：&lt;/p></description></item><item><title>useRouter</title><link>https://dev.alan223.online/posts/backend/next/navigation/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/backend/next/navigation/</guid><description>&lt;p>useRouter 钩子允许你以编程方式更改 客户端组件 内的路由。&lt;/p>
 &lt;p>&lt;em>推荐：除非你有使用 useRouter 的特定要求，否则请使用 &lt;Link> 组件 进行导航。&lt;/em>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;use client&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
@@ -70,4 +115,31 @@
 &lt;li>
 &lt;p>router.events 已被替换。&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>分类下的文章</title><link>https://dev.alan223.online/posts/frontend/blog/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/blog/</guid><description>&lt;h3 id="测试测试">测试测试&lt;/h3></description></item><item><title>分类下的文章2</title><link>https://dev.alan223.online/posts/frontend/blog2/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/blog2/</guid><description>&lt;h3 id="测试测试">测试测试&lt;/h3></description></item></channel></rss>
+&lt;/ul></description></item><item><title>useRouter</title><link>https://dev.alan223.online/posts/frontend/next/navigation/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/next/navigation/</guid><description>&lt;p>useRouter 钩子允许你以编程方式更改 客户端组件 内的路由。&lt;/p>
+&lt;p>&lt;em>推荐：除非你有使用 useRouter 的特定要求，否则请使用 &lt;Link> 组件 进行导航。&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;use client&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> { &lt;span style="color:#a6e22e">useRouter&lt;/span> } &lt;span style="color:#a6e22e">from&lt;/span> &lt;span style="color:#e6db74">&amp;#39;next/navigation&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">Page&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">router&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">useRouter&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">button&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;button&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">onClick&lt;/span>&lt;span style="color:#f92672">=&lt;/span>{() =&amp;gt; &lt;span style="color:#a6e22e">router&lt;/span>.&lt;span style="color:#a6e22e">push&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;/dashboard&amp;#39;&lt;/span>)}&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Dashboard&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">/button&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> )
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>从 next/router 迁移&lt;/strong>
+使用 App Router 时，应从 next/navigation 而不是 next/router 导入 useRouter 钩子&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>pathname 字符串已被删除并替换为 usePathname()&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>query 对象已被删除并被 useSearchParams() 取代&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>router.events 已被替换。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>分类下的文章</title><link>https://dev.alan223.online/posts/backend/blog/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/backend/blog/</guid><description>&lt;h3 id="测试测试">测试测试&lt;/h3></description></item><item><title>分类下的文章</title><link>https://dev.alan223.online/posts/frontend/blog/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/blog/</guid><description>&lt;h3 id="测试测试">测试测试&lt;/h3></description></item><item><title>分类下的文章2</title><link>https://dev.alan223.online/posts/backend/blog2/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/backend/blog2/</guid><description>&lt;h3 id="测试测试">测试测试&lt;/h3></description></item><item><title>分类下的文章2</title><link>https://dev.alan223.online/posts/frontend/blog2/</link><pubDate>Sat, 08 Jun 2024 06:00:20 +0600</pubDate><guid>https://dev.alan223.online/posts/frontend/blog2/</guid><description>&lt;h3 id="测试测试">测试测试&lt;/h3></description></item></channel></rss>
