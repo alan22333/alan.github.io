@@ -1,9 +1,9 @@
 ---
-title: Basic Knowledge
+title: Advanced Topics
 menu:
   sidebar:
-    name: Basic Knowledge
-    identifier: basic
+    name: Advanced Topics
+    identifier: advanced topics
     parent: web3
-    weight: 100
+    weight: 800
 ---
