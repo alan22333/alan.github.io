@@ -17,42 +17,58 @@ buttons:
   filter: "basic"
 - name: Language
   filter: "language"
+- name: Backend
+  filter: "backend"
+- name: Frontend
+  filter: "frontend"
+- name: Blockchain
+  filter: "blockchain"
 - name: Container
   filter: "container"
+- name: Framework
+  filter: "framework"
 - name: Others
   filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
-
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   categories: ["container"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
+- name: SpringBoot
+  logo: /images/sections/skills/springboot.png
+  summary: ""
+  categories: ["framework"]
   url: "https://prometheus.io/"
+
+- name: Mybatis
+  logo: /images/sections/skills/mybatis.png
+  summary: ""
+  categories: ["framework"]
+
+- name: Hardhat
+  logo: /images/sections/skills/hardhat.png
+  summary: ""
+  categories: ["blockchain","framework"]
+
+- name: IPFS
+  logo: /images/sections/skills/ipfs.png
+  summary: ""
+  categories: ["blockchain"]
+
+- name: React
+  logo: /images/sections/skills/react.png
+  summary: ""
+  categories: ["frontend","framework"]
+
+- name: Next
+  logo: /images/sections/skills/next.png
+  summary: ""
+  categories: ["frontend","framework"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -65,7 +81,32 @@ skills:
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: ""
+  categories: ["basic", "backend"]
+
+- name: Minio
+  logo: /images/sections/skills/minio.png
+  summary: ""
+  categories: ["backend"]
+
+- name: Redis
+  logo: /images/sections/skills/redis.png
+  summary: ""
+  categories: ["backend"]
+
+- name: Java
   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["backend", "language"]
+
+- name: Solidity
+  logo: /images/sections/skills/solidity.png
+  summary: ""
+  categories: ["blockchain", "language"]
+
+- name: Python
+  logo: /images/sections/skills/c++.png
+  summary: "Know basic python programming. "
   categories: ["basic", "language"]
