@@ -107,6 +107,6 @@ skills:
   categories: ["blockchain", "language"]
 
 - name: Python
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/Python.png
   summary: "Know basic python programming. "
   categories: ["basic", "language"]
