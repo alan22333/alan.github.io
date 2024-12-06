@@ -40,33 +40,33 @@ skills:
   url: "https://www.docker.com/"
 
 - name: SpringBoot
-  logo: /images/sections/skills/springboot.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["framework"]
   url: "https://prometheus.io/"
 
 - name: Mybatis
-  logo: /images/sections/skills/mybatis.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["framework"]
 
 - name: Hardhat
-  logo: /images/sections/skills/hardhat.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["blockchain","framework"]
 
 - name: IPFS
-  logo: /images/sections/skills/ipfs.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["blockchain"]
 
 - name: React
-  logo: /images/sections/skills/react.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["frontend","framework"]
 
 - name: Next
-  logo: /images/sections/skills/next.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["frontend","framework"]
 
@@ -82,31 +82,31 @@ skills:
   url: "https://git-scm.com/"
 
 - name: SQL
-  logo: /images/sections/skills/sql.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["basic", "backend"]
 
 - name: Minio
-  logo: /images/sections/skills/minio.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["backend"]
 
 - name: Redis
-  logo: /images/sections/skills/redis.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["backend"]
 
 - name: Java
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/linux.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
   categories: ["backend", "language"]
 
 - name: Solidity
-  logo: /images/sections/skills/solidity.png
+  logo: /images/sections/skills/linux.png
   summary: ""
   categories: ["blockchain", "language"]
 
 - name: Python
-  logo: /images/sections/skills/Python.png
+  logo: /images/sections/skills/linux.png
   summary: "Know basic python programming. "
   categories: ["basic", "language"]
