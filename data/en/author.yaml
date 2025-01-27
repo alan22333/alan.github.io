@@ -7,7 +7,7 @@ image: "images/avt.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "alan_root@outlook.com"
-  phone: "+xxxxxxxx"
+  phone: "+86 13862433994"
   github: alan22333
   linkedin: "null"
   researchgate: alan
@@ -15,5 +15,6 @@ contactInfo:
 # some summary about what you do
 summary:
   - Target to be a Digital Nomad
+  - I am interested in Blockchain
   - I love to learn new things
   - I love to work with some fun projects
