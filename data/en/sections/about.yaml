@@ -85,12 +85,12 @@ badges:
 
 - type: soft-skill-indicator
   name: Hard Working
-  percentage: 85
+  percentage: 90
   color: green
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 90
+  percentage: 85
   color: yellow
 
 - type: soft-skill-indicator
