@@ -27,8 +27,18 @@ buttons:
   filter: "container"
 - name: Framework
   filter: "framework"
-- name: Others
-  filter: "others"
+- name: Storage
+  filter: "storage"
+- name: DevOps
+  filter: "devops"
+- name: System
+  filter: "system"
+- name: Database
+  filter: "database"
+- name: Version Control
+  filter: "version-control"
+- name: Documentation
+  filter: "documentation"
 
 skills:
 - name: Docker
