@@ -120,7 +120,7 @@ skills:
   url: "https://www.java.com/"
 
 - name: JavaScript
-  logo: /images/sections/skills/js.png
+  logo: /images/sections/skills/linux.png
   summary: "Strong knowledge of JavaScript for both frontend and backend development, including modern features like ES6+."
   categories: ["language", "frontend", "backend"]
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
