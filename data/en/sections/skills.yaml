@@ -35,10 +35,6 @@ buttons:
   filter: "system"
 - name: Database
   filter: "database"
-- name: Version Control
-  filter: "version-control"
-- name: Documentation
-  filter: "documentation"
 
 skills:
 - name: Docker
@@ -92,7 +88,7 @@ skills:
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with Git for version control, including workflows with GitHub and GitLab for collaborative development."
-  categories: ["version-control"]
+  categories: ["basic", "devops"]
   url: "https://git-scm.com/"
 
 - name: SQL
@@ -128,14 +124,8 @@ skills:
 - name: Python
   logo: /images/sections/skills/linux.png
   summary: "Proficient in Python for automation, data analysis, and backend development."
-  categories: ["language", "backend", "data-science"]
+  categories: ["language", "backend"]
   url: "https://www.python.org/"
-
-- name: Latex
-  logo: /images/sections/skills/linux.png
-  summary: "Experienced in using LaTeX for document preparation, including technical papers, academic articles, and reports."
-  categories: ["others", "documentation"]
-  url: "https://www.latex-project.org/"
 
 - name: OpenZeppelin
   logo: /images/sections/skills/linux.png
