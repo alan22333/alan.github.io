@@ -13,17 +13,17 @@ buttons:
 - name: All
   filter: "all"
 - name: Web3
-  filter: "web3"
+  filter: "Web3"
 - name: Web2
-  filter: "web2"
-- name: Under-development
-  filter: "under-development"
+  filter: "Web2"
 - name: DApp
   filter: "dapp"
 - name: demo
   filter: "demo"
 - name: tool
   filter: "tool"
+- name: Under-development
+  filter: "under-development"
 
 # your projects
 projects:
