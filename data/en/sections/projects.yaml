@@ -17,13 +17,13 @@ buttons:
 - name: Web2
   filter: "Web2"
 - name: DApp
-  filter: "dapp"
+  filter: "DApp"
 - name: demo
   filter: "demo"
 - name: tool
   filter: "tool"
 - name: Under-development
-  filter: "under-development"
+  filter: "Under-development"
 
 # your projects
 projects:
