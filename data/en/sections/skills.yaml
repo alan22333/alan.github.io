@@ -37,6 +37,18 @@ buttons:
   filter: "database"
 
 skills:
+- name: Solidity
+  logo: /images/sections/skills/linux.png
+  summary: "Proficient in Java, focusing on object-oriented programming, and building large-scale backend systems and applications."
+  categories: ["language", "blockchain"]
+  url: "https://learnblockchain.cn/docs/solidity/"
+
+- name: Hardhat
+  logo: /images/sections/skills/linux.png
+  summary: "Familiar with Hardhat for Ethereum smart contract development, testing, and deploying decentralized applications (DApps)."
+  categories: ["blockchain", "framework"]
+  url: "https://hardhat.org/"
+
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Write and deploy applications in Docker containers. Experienced with multi-stage and multi-architecture build processes."
@@ -54,12 +66,6 @@ skills:
   summary: "Experienced with Mybatis ORM for Java, focusing on database access and SQL mapping for backend applications."
   categories: ["framework", "backend"]
   url: "https://mybatis.org/mybatis-3/"
-
-- name: Hardhat
-  logo: /images/sections/skills/linux.png
-  summary: "Familiar with Hardhat for Ethereum smart contract development, testing, and deploying decentralized applications (DApps)."
-  categories: ["blockchain", "framework"]
-  url: "https://hardhat.org/"
 
 - name: IPFS
   logo: /images/sections/skills/linux.png
