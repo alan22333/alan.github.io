@@ -31,25 +31,23 @@ projects:
   logo: /images/sections/projects/kubernetes.png
   role: Developer
   timeline: "2024"
-  repo: https://gitee.com/alan223/graduation_design # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  repo: https://gitee.com/alan223/graduation_design
   summary: A decentralized application (DApp) that allows users to communicate and trade NFTs on the Ethereum blockchain.
-  tags: ["DApp", "Web3","Web2"]
+  tags: ["DApp","Web3","Web2"]
 
 - name: Memecoin
   logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "2025"
   repo: https://gitee.com/alan223/memecoin
-  #url: ""
-  summary: a platform like pump.fun, where users can create and trade their own meme tokens.
+  summary: A platform similar to pump.fun, enabling users to create and trade their own meme tokens.
   tags: ["DApp", "Web3"]
 
 - name: Prediction Market
   role: Developer
   timeline: "2025"
   url: "https://gitee.com/alan223/prediction-market"
-  summary: A decentralized prediction market platform that allows users to bet on the outcome of future events.
+  summary: A decentralized prediction market platform where users can place bets on the outcome of future events.
   tags: ["DApp","Web3"]
 
 - name: Simple Bank
@@ -57,8 +55,7 @@ projects:
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/bank-dapp
-  #url: ""
-  summary: A simple decentralized application (DApp) demo for beginner.
+  summary: A simple decentralized banking application (DApp) demo for beginners.
   tags: ["DApp", "Web3","demo"]
 
 - name: SNS
@@ -66,7 +63,7 @@ projects:
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/sns
-  summary: A Hugo theme for personal portfolio.
+  summary: A decentralized naming system similar to ENS (Ethereum Name Service).
   tags: ["DApp","Web3","Under-development"]
 
 - name: Simple Chatroom
@@ -74,40 +71,47 @@ projects:
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/simple-chatroom
-  summary: A Hugo theme for personal portfolio.
+  summary: A basic web-based chatroom application.
   tags: ["Web2","demo"]
 
-
-- name: todo lists
+- name: Todo lists
   logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/todo-tool
-  summary: A Hugo theme for personal portfolio.
+  summary: A simple to-do list management tool.
   tags: ["Web2","demo","tool"]
 
-- name: stop clock
+- name: Travel Expense Splitter
+  logo: /images/sections/projects/toha.png
+  role: Developer
+  timeline: "2025"
+  repo: https://gitee.com/alan223/aa
+  summary: A tool for splitting travel expenses among multiple users.
+  tags: ["Web2","tool"]
+
+- name: Stop clock
   logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://github.com/alan22333/stop_clock_tool
-  summary: A Hugo theme for personal portfolio.
+  summary: A stopwatch tool for tracking time.
   tags: ["Web2","demo","tool"]
 
-- name: deepseek chat
+- name: Deepseek chat demo
   logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/deepseek-api-demo
-  summary: A Hugo theme for personal portfolio.
-  tags: ["Web2","demo","tool"]
+  summary: A demo application integrating DeepSeek AI chat capabilities.
+  tags: ["Web2","demo"]
 
 - name: AI podcast
   logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/next_fullstack_podcast
-  summary: A Hugo theme for personal portfolio.
+  summary: A full-stack podcast application powered by AI-generated content.
   tags: ["Web2","Under-development"]
 
 - name: Next fullstack demo
@@ -115,5 +119,5 @@ projects:
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/next_fullstack_demo
-  summary: A Hugo theme for personal portfolio.
-  tags: ["Web2"]
+  summary: A full-stack web application built with Next.js.
+  tags: ["Web2","demo"]
