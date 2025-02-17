@@ -40,7 +40,7 @@ experiences:
     name: Studied Software Engineering
     url: "https://www.example.com"
     location: JSUT
-    logo: /images/sections/experiences/company2.jpg
+    # logo: /images/sections/experiences/company2.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
     overview: Transferred to the Software Engineering program at the College of Computer Science in my sophomore year, starting a new phase of study.
@@ -71,7 +71,7 @@ experiences:
     name: Dr. Han Feilong's Studio
     url: "https://www.example.com"
     location: JSUT
-    logo: /images/sections/experiences/company3.jpg
+    # logo: /images/sections/experiences/company3.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: Studied under Dr. Han Feilong to gain deeper knowledge, significantly improving personal cognition and laying a foundation for future development.
@@ -91,7 +91,7 @@ experiences:
     name: Hubei Guangnian Technology Co., Ltd.
     url: "https://guangnian.xyz/"
     location: Wuhan, Hubei
-    logo: /images/sections/experiences/company3.jpg
+    # logo: /images/sections/experiences/company3.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: Hubei Guangnian Technology Co., Ltd. is a startup focusing on blockchain technology, committed to providing blockchain-based solutions to users.
