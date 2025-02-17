@@ -25,11 +25,11 @@ languages:
     languageName: English
     title: "Alan's Blog"
     weight: 1
-  cn:
-    languageCode: cn
-    languageName: 中文
-    title: "alan的个人网站"
-    weight: 2
+  # cn:
+  #   languageCode: cn
+  #   languageName: 中文
+  #   title: "alan的个人网站"
+  #   weight: 2
 
 # default language for the content
 defaultContentLanguage: en
