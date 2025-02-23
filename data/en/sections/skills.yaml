@@ -39,7 +39,7 @@ buttons:
 skills:
 - name: Solidity
   logo: /images/sections/skills/solidity.png
-  summary: "Familiar with Solidity, focusing on object-oriented programming, and building large-scale backend systems and applications."
+  summary: "Familiar with Solidity, focusing on smart contract programming, and building middle-scale backend systems and DApp."
   categories: ["language", "blockchain"]
   url: "https://learnblockchain.cn/docs/solidity/"
 
