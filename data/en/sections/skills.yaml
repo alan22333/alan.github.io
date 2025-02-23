@@ -38,7 +38,7 @@ buttons:
 
 skills:
 - name: Solidity
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/solidity.png
   summary: "Familiar with Solidity, focusing on object-oriented programming, and building large-scale backend systems and applications."
   categories: ["language", "blockchain"]
   url: "https://learnblockchain.cn/docs/solidity/"
@@ -56,31 +56,31 @@ skills:
   url: "https://www.docker.com/"
 
 - name: SpringBoot
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/sprinboot.png
   summary: "Familiar with building enterprise-level applications using the Spring Boot framework with an emphasis on RESTful APIs and microservices architecture."
   categories: ["framework", "backend"]
   url: "https://spring.io/projects/spring-boot"
 
 - name: Mybatis
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/mybatis.png
   summary: "Experienced with Mybatis ORM for Java, focusing on database access and SQL mapping for backend applications."
   categories: ["framework", "backend"]
   url: "https://mybatis.org/mybatis-3/"
 
 - name: IPFS
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/ipfs.png
   summary: "Experience with IPFS for decentralized file storage and understanding of its integration with blockchain systems."
   categories: ["blockchain", "storage"]
   url: "https://ipfs.io/"
 
 - name: React
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/react.png
   summary: "Experienced in building dynamic user interfaces using React.js, with a focus on state management and component architecture."
   categories: ["frontend", "framework"]
   url: "https://reactjs.org/"
 
 - name: Next
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/nextjs.png
   summary: "Familiar with using Next.js for building fast and scalable web applications with server-side rendering and static site generation."
   categories: ["frontend", "framework"]
   url: "https://nextjs.org/"
@@ -98,43 +98,43 @@ skills:
   url: "https://git-scm.com/"
 
 - name: SQL
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/mysql.png
   summary: "Familiar with SQL for managing and querying relational databases, including MySQL and PostgreSQL."
   categories: ["database", "backend"]
   url: "https://www.mysql.com/"
 
 - name: Minio
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/minio.png
   summary: "Familiar with Minio, a high-performance, distributed object storage system designed for cloud-native applications."
   categories: ["storage", "devops"]
   url: "https://min.io/"
 
 - name: Redis
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/redis.png
   summary: "Experienced in using Redis as a caching layer and for managing real-time data in scalable web applications."
   categories: ["backend", "database"]
   url: "https://redis.io/"
 
 - name: Java
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/java.png
   summary: "Familiar with Java, focusing on object-oriented programming, and building large-scale backend systems and applications."
   categories: ["language", "backend"]
   url: "https://www.java.com/"
 
 - name: JavaScript
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/js.png
   summary: "Familiar with JavaScript for both frontend and backend development, including modern features like ES6+."
   categories: ["language", "frontend", "backend"]
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
 - name: Python
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/python.png
   summary: "Familiar with Python for automation, data analysis, and backend development."
   categories: ["language", "backend"]
   url: "https://www.python.org/"
 
 - name: OpenZeppelin
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/openzeppelin.png
   summary: "Familiar with OpenZeppelin, a library for secure smart contract development on the Ethereum blockchain."
   categories: ["blockchain", "security"]
   url: "https://openzeppelin.com/"
