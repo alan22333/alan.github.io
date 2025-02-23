@@ -56,7 +56,7 @@ skills:
   url: "https://www.docker.com/"
 
 - name: SpringBoot
-  logo: /images/sections/skills/sprinboot.png
+  logo: /images/sections/skills/springboot.png
   summary: "Familiar with building enterprise-level applications using the Spring Boot framework with an emphasis on RESTful APIs and microservices architecture."
   categories: ["framework", "backend"]
   url: "https://spring.io/projects/spring-boot"
