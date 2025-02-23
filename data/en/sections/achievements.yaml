@@ -10,15 +10,25 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: 优秀毕业生
+  image: /images/sections/achievements/其他/优秀毕业生.jpg
+- title: 优秀毕业设计
+  image: /images/sections/achievements/其他/优秀毕设.jpg
+- title: 软件设计师
+  image: /images/sections/achievements/技能证书/软考.jpg
+- title: 专利
+  image: /images/sections/achievements/其他/专利.jpg
+- title: 三好学生
+  image: /images/sections/achievements/其他/三好学生.jpg
+- title: 一等奖学金1
+  image: /images/sections/achievements/奖学金/1-1.jpg
+- title: 一等奖学金2
+  image: /images/sections/achievements/奖学金/1-2.jpg
+- title: 蓝桥杯
+  image: /images/sections/achievements/学科竞赛/蓝桥杯.jpg
+- title: CET-4 & CET-6
+  image: /images/sections/achievements/技能证书/cet.jpg
+- title: 高等数学1
+  image: /images/sections/achievements/学科竞赛/高数省赛1.jpg
+- title: 高等数学2
+  image: /images/sections/achievements/学科竞赛/高数省赛2.jpg
