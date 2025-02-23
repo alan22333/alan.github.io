@@ -28,7 +28,7 @@ buttons:
 # your projects
 projects:
 - name: NFT Trading Community DApp based on Ethereum
-  logo: /images/sections/projects/kubernetes.png
+  # logo: /images/sections/projects/kubernetes.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/graduation_design
@@ -36,7 +36,7 @@ projects:
   tags: ["DApp","Web3","Web2"]
 
 - name: Memecoin
-  logo: /images/sections/projects/tensorflow.png
+  # logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "2025"
   repo: https://gitee.com/alan223/memecoin
@@ -51,7 +51,7 @@ projects:
   tags: ["DApp","Web3"]
 
 - name: Simple Bank
-  logo: /images/sections/projects/no-code.png
+  # logo: /images/sections/projects/no-code.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/bank-dapp
@@ -59,7 +59,7 @@ projects:
   tags: ["DApp", "Web3","demo"]
 
 - name: SNS
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/sns
@@ -67,7 +67,7 @@ projects:
   tags: ["DApp","Web3","Under-development"]
 
 - name: Simple Chatroom
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/simple-chatroom
@@ -75,7 +75,7 @@ projects:
   tags: ["Web2","demo"]
 
 - name: Todo lists
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/todo-tool
@@ -83,7 +83,7 @@ projects:
   tags: ["Web2","demo","tool"]
 
 - name: Travel Expense Splitter
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2025"
   repo: https://gitee.com/alan223/aa
@@ -91,7 +91,7 @@ projects:
   tags: ["Web2","tool"]
 
 - name: Stop clock
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://github.com/alan22333/stop_clock_tool
@@ -99,7 +99,7 @@ projects:
   tags: ["Web2","demo","tool"]
 
 - name: Deepseek chat demo
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/deepseek-api-demo
@@ -107,7 +107,7 @@ projects:
   tags: ["Web2","demo"]
 
 - name: AI podcast
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/next_fullstack_podcast
@@ -115,7 +115,7 @@ projects:
   tags: ["Web2","Under-development"]
 
 - name: Next fullstack demo
-  logo: /images/sections/projects/toha.png
+  # logo: /images/sections/projects/toha.png
   role: Developer
   timeline: "2024"
   repo: https://gitee.com/alan223/next_fullstack_demo

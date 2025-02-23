@@ -39,7 +39,7 @@ buttons:
 skills:
 - name: Solidity
   logo: /images/sections/skills/linux.png
-  summary: "Proficient in Java, focusing on object-oriented programming, and building large-scale backend systems and applications."
+  summary: "Familiar with Solidity, focusing on object-oriented programming, and building large-scale backend systems and applications."
   categories: ["language", "blockchain"]
   url: "https://learnblockchain.cn/docs/solidity/"
 
@@ -51,13 +51,13 @@ skills:
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write and deploy applications in Docker containers. Experienced with multi-stage and multi-architecture build processes."
+  summary: "Familiar with writing and deploying applications in Docker containers. Experienced with multi-stage and multi-architecture build processes."
   categories: ["container", "devops"]
   url: "https://www.docker.com/"
 
 - name: SpringBoot
   logo: /images/sections/skills/linux.png
-  summary: "Proficient in building enterprise-level applications using Spring Boot framework with an emphasis on RESTful APIs and microservices architecture."
+  summary: "Familiar with building enterprise-level applications using the Spring Boot framework with an emphasis on RESTful APIs and microservices architecture."
   categories: ["framework", "backend"]
   url: "https://spring.io/projects/spring-boot"
 
@@ -81,13 +81,13 @@ skills:
 
 - name: Next
   logo: /images/sections/skills/linux.png
-  summary: "Proficient in using Next.js for building fast and scalable web applications with server-side rendering and static site generation."
+  summary: "Familiar with using Next.js for building fast and scalable web applications with server-side rendering and static site generation."
   categories: ["frontend", "framework"]
   url: "https://nextjs.org/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Experienced in Linux-based systems as a primary operating environment. Proficient in shell scripting and system administration."
+  summary: "Experienced in Linux-based systems as a primary operating environment. Familiar with shell scripting and system administration."
   categories: ["system", "devops"]
   url: "https://www.linux.org/"
 
@@ -99,7 +99,7 @@ skills:
 
 - name: SQL
   logo: /images/sections/skills/linux.png
-  summary: "Proficient in SQL for managing and querying relational databases, including MySQL and PostgreSQL."
+  summary: "Familiar with SQL for managing and querying relational databases, including MySQL and PostgreSQL."
   categories: ["database", "backend"]
   url: "https://www.mysql.com/"
 
@@ -117,19 +117,19 @@ skills:
 
 - name: Java
   logo: /images/sections/skills/linux.png
-  summary: "Proficient in Java, focusing on object-oriented programming, and building large-scale backend systems and applications."
+  summary: "Familiar with Java, focusing on object-oriented programming, and building large-scale backend systems and applications."
   categories: ["language", "backend"]
   url: "https://www.java.com/"
 
 - name: JavaScript
   logo: /images/sections/skills/linux.png
-  summary: "Strong knowledge of JavaScript for both frontend and backend development, including modern features like ES6+."
+  summary: "Familiar with JavaScript for both frontend and backend development, including modern features like ES6+."
   categories: ["language", "frontend", "backend"]
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
 - name: Python
   logo: /images/sections/skills/linux.png
-  summary: "Proficient in Python for automation, data analysis, and backend development."
+  summary: "Familiar with Python for automation, data analysis, and backend development."
   categories: ["language", "backend"]
   url: "https://www.python.org/"
 
@@ -138,3 +138,4 @@ skills:
   summary: "Familiar with OpenZeppelin, a library for secure smart contract development on the Ethereum blockchain."
   categories: ["blockchain", "security"]
   url: "https://openzeppelin.com/"
+
