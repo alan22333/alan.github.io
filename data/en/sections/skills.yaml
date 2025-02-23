@@ -44,7 +44,7 @@ skills:
   url: "https://learnblockchain.cn/docs/solidity/"
 
 - name: Hardhat
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/hardhat.png
   summary: "Familiar with Hardhat for Ethereum smart contract development, testing, and deploying decentralized applications (DApps)."
   categories: ["blockchain", "framework"]
   url: "https://hardhat.org/"
