@@ -129,7 +129,7 @@ skills:
 
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Familiar with Python for automation, data analysis, and backend development."
+  summary: "Familiar with Python for basic backend development."
   categories: ["language", "backend"]
   url: "https://www.python.org/"
 
